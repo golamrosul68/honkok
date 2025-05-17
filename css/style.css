@@ -1,0 +1,530 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+
+body{
+
+  background: #000;
+   font-family: "Oswald", sans-serif;
+}
+.container{
+
+  width: 1320px;
+}
+/* ======== header  start ========= */
+
+header nav .nav-item .nav_list{
+color:#DDDDDD;
+font-size: 16px;
+font-weight: 400;
+text-decoration: none;
+margin-left: 30px;
+
+
+}
+header nav .nav_icon ul li {
+ color: #FFFFFF;
+
+}
+header nav .nav_icon .navber_icon{
+  gap: 25px;
+}
+header nav .nav_icon ul li span{
+
+  margin-left: 7px;
+}
+header nav .nav_icon ul{
+ margin: 0;
+padding: 0;
+
+
+}
+
+header{
+  
+}
+#banner .banner_text {
+margin-top: 270px;
+
+}
+
+
+#banner .banner_text h4{
+font-family: "Oswald", sans-serif;
+font-size: 27px;
+font-weight: 500;
+letter-spacing: 10%;
+
+}
+#banner .banner_text h1{
+  font-family: "Oswald", sans-serif;
+font-size: 60px;
+font-weight: 600;
+}
+#banner .banner_text h1 span{
+  width: 90px;
+  height: 5px;
+  background: #FFFFFF;
+  display: inline-block;
+}
+
+#banner .banner_text p{
+ font-family: "Oswald", sans-serif;
+font-size: 16px;
+font-weight: 400;
+width: 521px;
+height: 72px;
+
+
+}
+#banner .banner_text button{
+width: 128px;
+height: 50px;
+margin-top: 48px;
+
+}
+#banner .banner_text button a{
+  color: #000;
+  text-decoration: none;
+}
+#banner .banner_text button .btn_icon{
+  padding-left: 7px;
+
+}
+#banner .banner_text .icon ul{
+  display: flex;
+  gap: 20px;
+  margin-top: 300px;
+  margin-left: 0px;
+  margin-bottom: 1006px;
+}
+#banner .banner_text .icon ul li{
+  list-style: none;
+  height: 35px;
+  width: 35px;
+  background: #DDDDDD;
+  color: #000;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 35px;
+  font-size: 20px;
+}
+/* ======== header  end ========= */
+    /* <!-- ========= about part start ========== --> */
+    #about_part .line{
+position: relative;
+margin-top: -222px;
+
+
+
+    }
+        #about_part .line::after{
+          content: "";
+         top: -185px;
+          left: 0px;
+          width: 163px;
+          height: 5px;
+          background: #FF4655;
+          position: absolute;
+        }
+        #about_part .line::before{
+          content: "";
+         top: -185px;
+          left: 0px;
+          width: 5px;
+          height: 163px;
+          background: #FF4655;
+          position: absolute;
+        }
+        #about_part .left{
+          border: none;
+        }
+
+
+#about_part h2{
+ font-family: "Oswald", sans-serif;
+font-size: 38px;
+font-weight: 600;
+color: #FFFFFF;
+letter-spacing: 7%;
+margin-top: 31px;
+}
+
+#about_part h2 span{
+ width: 120px;
+  height: 3px;
+  background: #FF4655;
+  display: inline-block;
+  opacity: 100%;
+margin-left: 13px;
+}
+#about_part .text_area h2{
+  font-size: 27px;
+  letter-spacing: 3%;
+  font-weight: 500;
+ font-family: "Oswald", sans-serif;
+ 
+}
+#about_part .row{
+margin-top: 58px;
+
+}
+#about_part .text_area{
+
+  width: 468;
+  height: 403;
+  
+}
+#about_part .text_area ul{
+ 
+}
+
+
+
+#about_part .text_area li{
+  color: #DDDDDD;
+  list-style: none;
+
+
+}
+#about_part .text_area li .thik_icon{
+  color: #FF4655;
+margin-right: 10px;
+}
+#about_part .text_area p{
+  color: #FFFFFF;
+  font-style: 500;
+  font-size: 18px;
+}
+#about_part .text_area button{
+  width: 128px;
+  height: 50px;
+  background: #212121;
+  color: #FFFFFF;
+  border: none;
+  margin-top: 30px;
+}
+#about_part .text_area button:hover{
+  background: #FF4655;
+  transition: 0.4s;
+}
+
+#about_part .text_area button a{
+  color: #FFFFFF;
+  text-decoration: none;
+}
+#about_part .text_area button span{
+  margin-left: 7px;
+}
+
+
+
+
+#about_part .Community .item{
+width: 100%;
+background: #212121;
+padding: 26px 0;
+border-radius: 0 50px 0 50px;
+text-align: center;
+}
+#about_part .Community{
+margin-bottom: 80px;
+
+
+}
+
+
+#about_part .Community .item h4{
+  font-size: 60px;
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 600;
+  letter-spacing: 3%;
+  color: #FFFFFF;
+  margin-bottom: 18px;
+  position: relative;
+}
+#about_part .Community .item h4:after{
+  background: #FF4655;
+  width: 12px;
+  height: 12px;
+  position: absolute;
+  content:'' ;
+  border-radius: 50%;
+  right: 81px;
+  bottom: 5px;
+
+}
+
+#about_part .Community .item p{
+  color: #FFFFFF;
+   font-family: "Oswald", sans-serif;
+   font-size: 18px;
+   letter-spacing: 2%;
+   font-weight: 300;
+}
+    
+    /* <!-- ========= about part end ========== --> */
+    /* <!-- =============AROUND part start ====== --> */
+#AROUND .AROUND_part h2 {
+  color: #FFFFFF;
+  font-size: 38px;
+  width: 454px;
+  height: 100px;
+  letter-spacing: 7%;
+  font-weight: 600;
+ font-family: "Barlow Condensed", sans-serif;
+ margin-left: 900px;
+ margin-top: 116px;
+ 
+
+    
+}
+#AROUND .AROUND_part h2 .w{
+ margin-left: 300px;
+  
+
+}
+#AROUND .AROUND_part h2 .w span{
+   width: 105px;
+  height: 3px;
+  background: #FF4655;
+  display: inline-block;
+  opacity: 100%;
+margin-left: 180px;
+margin-bottom: 250px;
+}
+#AROUND .AROUND_part .slaid_part .itam .shap{
+  width: 651px;
+  height: 600px;
+  background: #FF4655;
+clip-path: polygon(25% 0%, 100% 0%, 83% 65%, 5% 64%);
+z-index: -10;
+position: absolute;
+left: 0;
+top: 0;
+
+}
+#AROUND .AROUND_part .slaid_part .itam .image_show{
+  z-index: 10;
+  margin-top: -216px;
+  
+}
+#AROUND .AROUND_part .slaid_part{
+  position: relative;
+  text-align: center;
+  margin-top: 80px;
+  margin-bottom: 97px;
+  
+}
+#AROUND .AROUND_part .button_1{
+
+
+}
+#prev{
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  left: 1250px;
+  top: 450px;
+
+}
+#next{
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  right: 10px;
+  top: 400px;
+}
+.prev_icon{
+width: 40px;
+height: 40px;
+background: #212121;
+color: #FFFFFF;
+border-radius: 50%;
+display: flex;
+justify-content: center;
+align-items: center;
+
+
+}
+.next_icon{
+  width: 40px;
+height: 40px;
+background: #212121;
+color: #FFFFFF;
+border-radius: 50%;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+
+/* ============ LIVE_STREAMIN start ======= */
+#LIVE_STREAMIN h2{
+   font-family: "Oswald", sans-serif;
+font-size: 38px;
+font-weight: 600px;
+color: #FFFFFF;
+letter-spacing: 7%;
+margin-top: 31px;
+width: 446px;
+position: relative;
+margin-top: 90px;
+margin-bottom: 66px
+
+}
+#LIVE_STREAMIN h2::after{
+  content: "";
+  width: 120px;
+  height: 3px;
+  background: #FF4655;
+  position: absolute;
+  margin-left: 10px;
+  bottom: 0;
+}
+#LIVE_STREAMIN .vedio_part .vedio_animason{
+  filter: grayscale(100%);
+transform: scale(0.9);
+
+}
+#LIVE_STREAMIN .vedio_part .vedio_animason:hover{
+  filter: grayscale(0);
+transition: 0.4s;
+transform: scale(1);
+}
+#Tornament p{
+   font-family: "Barlow Condensed", sans-serif;
+   font-size: 25px;
+   text-align: center;
+   letter-spacing: 9%;
+   color: #FFFFFF;
+   margin: 65px;
+
+}
+#Tornament .PREVIOUS_MATCHES .mach_list .item{
+  height: 118px;
+  background: #212121;
+  clip-path: polygon(0 0, 100% 0, 69% 100%, 0% 100%);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+
+
+}
+#Tornament .PREVIOUS_MATCHES .mach_list .item h4{
+  padding-right: 90px;
+  font-size: 32px;
+  letter-spacing: 3%;
+     font-family: "Barlow Condensed", sans-serif;
+     font-weight: 500;
+     color: #FFFFFF;
+
+}
+
+#Tornament .PREVIOUS_MATCHES .mach_list .item_thare{
+clip-path: polygon(0 1%, 100% 0, 100% 100%, 39% 100%);
+  background: #212121;
+  height: 118px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+#Tornament .PREVIOUS_MATCHES .mach_list .item_thare h3{
+  color: #FFFFFF;
+  padding-left: 120px;
+  font-size: 32px;
+  letter-spacing: 3%;
+     font-family: "Barlow Condensed", sans-serif;
+     font-weight: 500;
+     color: #FFFFFF;
+
+}
+#Tornament .PREVIOUS_MATCHES .mach_list .item_two h4{
+  text-align: center;
+     font-family: "Oswald", sans-serif;
+     font-weight: 500;
+     color: #FFFFFF;
+     margin-top: 50px;
+     letter-spacing: 15%;
+     font-size: 40px;
+
+
+
+}
+#Tornament .PREVIOUS_MATCHES .mach_list{
+  margin-top: 60px;
+}
+
+/* ============ LIVE_STREAMIN end ======= */
+/* =========== sele part======== */
+#FRIDAY_SALE .sele_part h2 {
+  color: #FFFFFF;
+  font-size: 38px;
+  width: 454px;
+  height: 100px;
+  letter-spacing: 7%;
+  font-weight: 600;
+ font-family: "Barlow Condensed", sans-serif;
+ margin-left: 900px;
+ margin-top: 116px;}
+ #FRIDAY_SALE .sele_part h2 .w span{
+   width: 105px;
+  height: 3px;
+  background: #FF4655;
+  display: inline-block;
+  opacity: 100%;
+margin-left: 180px;
+margin-bottom: 250px;
+}
+#FRIDAY_SALE .sele_part h2 .w{
+ margin-left: 300px;
+  
+}
+#FRIDAY_SALE .sele_part .sele_itam .{
+  margin-top: 35px;
+  margin-bottom: 60px;
+}
+
+#FRIDAY_SALE .sele_part .sele_itam .animason1{
+  filter: grayscale(100%);
+transform: scale(0.9);
+
+
+
+}
+#FRIDAY_SALE .sele_part .sele_itam .animason1:hover{
+  filter: grayscale(0);
+transition: 0.4s;
+transform: scale(1);}
+
+
+
+/* =========== sele part======== */
+
+
+
+
+.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* <!-- =============AROUND part end ====== --> */
